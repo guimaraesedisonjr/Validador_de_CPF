@@ -1,17 +1,24 @@
 programa {
   funcao inicio() {
-    escreva("111.444.77-35")
-/*## Etapa 2: Uso de Variáveis
+    inteiro p1, p2, p3, p4
+    
+    escreva("Digite os três primeiros digitos do CPF: ")
+    leia(p1)
+    limpa()
 
-### Objetivo
-Armazenar e exibir o CPF formatado utilizando variáveis.
+    escreva("Digite os outros três: ")
+    leia(p2)
+    limpa()
 
-### Tarefas
-- [ ] Criar **quatro variáveis inteiras**.
-- [ ] Atribuir valores a essas variáveis (valores fixos).
-- [ ] Exibir o CPF formatado a partir dessas variáveis.*/
-inteiro p1 = 111, p2 = 444, p3 = 77, p4 = 35
-escreva("CPF :, p1, ".", p2, ".", p3, "-", p4 ")
+    escreva("Digite os outros três: ")
+    leia(p3)
+    limpa()
+
+    escreva("Digite os dois últimos: ")
+    leia(p4)
+    limpa()
+
+    escreva("CPF: ", p1, ".", p2, ".", p3, "-", p4)
 
   }
 }
