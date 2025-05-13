@@ -62,5 +62,22 @@ Receba um CPF completo (com pontos e traço) e mostre ele separado em 2 partes.
 - [x] Leia um CPF completo do usuário (`XXX.XXX.XXX-YY`).
 - [x] Separe os 9 números do CPF dos 2 Dígitos Verificadores em duas variáveis.
 - [x] Exiba as duas variáveis separadamente.
+  
+   ## Etapa 6: Validando Entrada
+
+### Objetivos
+Receba um CPF completo e valide ele.
+
+### Tarefas
+- [x] Leia um CPF completo do usuário.
+- [x] Valide para que o CPF esteja nos formatos `XXX.XXX.XXX-YY` ou `XXXXXXXXXYY`.
+
+---
+
+# Como usar checkbox no README
+
+Copie a seção `Desenvolvimento do Projeto` direto no seu `README.md`.<br>
+Marque as tarefas concluídas trocando `[ ]` por `[x]` à medida que for avançando.
+
 
 
