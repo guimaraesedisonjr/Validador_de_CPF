@@ -1,4 +1,4 @@
- def inicio():
+def inicio():
     cpf_entrada = input("Digite o CPF (formato XXX.XXX.XXX-YY ou XXXXXXXXXYY): ")
     cpf_somente_numeros = ""
     numeros_cpf = ""
@@ -72,3 +72,7 @@
         print("CPF VÁLIDO.\n")
     else:
         print("CPF INVÁLIDO.\n")
+
+
+
+inicio()
